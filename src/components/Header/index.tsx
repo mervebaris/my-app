@@ -8,9 +8,8 @@ import BI from "@/components/assets/biswap.png";
 const Header = () => {
   return (
     <div className=" w-full h-[500px] flex justify-around">
-      <div className="flex flex-col gap-3 justify-center items-center text-2xl font-medium z-24 text-[#20111c] tracking-wide leading-10">
-        The most memeable memecoin in existence. <br />The dogs have had their
-        day, <br />it’s time for Pepe to take reign.
+      <div className="w-1/2 px-15  flex flex-col gap-3 justify-center items-center text-2xl font-medium z-24 text-[#20111c] tracking-wide leading-10">
+        Step into a world full of smiles! <br/>Giggly Token is the perfect combination of fun and humor. <br/>It aims to create joy not only in the<br/> crypto world but also in daily life.
         <div className="flex gap-10 justify-start p-2">
           <div className="bg-[#dccff9]/90 rounded-full">
             <Image
@@ -50,7 +49,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="w-1/2  px-15 flex justify-center items-center">
         <Image
           src={CASPER}
           width={500}
