@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar/index";
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import About from "@/components/About";
+import Tokenomics from "@/components/Tokenomics";
 export default function Home() {
   return (
     <main className="w-full h-full flex flex-col bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-200 via-violet-600 to-sky-900 ">
@@ -15,6 +16,9 @@ export default function Home() {
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <Tokenomics />
       </div>
     </main>
   );
