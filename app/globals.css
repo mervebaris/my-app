@@ -74,31 +74,3 @@
     @apply bg-background text-foreground;
   }
 }
-.colored1 {
-  width: 342px;
-  height: 408px;
-  left: 900px;
-  top: 344.04px;
-  position: absolute;
-  transform: rotate(-78.79deg);
-  transform-origin: 0 0;
-  background: #e756bd;
-  box-shadow: 250px 250px 250px;
-  border-radius: 9999px;
-  filter: blur(120px);
-  z-index: -1;
-}
-.colored2 {
-  width: 504px;
-  height: 601px;
-  left: -300px;
-  top: 438.78px;
-  position: absolute;
-  transform: rotate(-78.79deg);
-  transform-origin: 0 0;
-  background: #2382c0;
-  box-shadow: 250px 250px 250px;
-  border-radius: 9999px;
-  filter: blur(200px);
-  z-index: -1;
-}
